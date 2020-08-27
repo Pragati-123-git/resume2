@@ -528,3 +528,61 @@ button:focus {
     height: inherit;
     width: 30%;
 }
+@media screen and (max-width:600px){
+    #name-social-container {
+        margin-top: 15vh;
+    }
+    #my-name {
+        font-size:2rem;
+}
+.social-icons li a i {
+    padding: 2px;
+    font-size: 1rem;
+    border-radius: 20%;
+}
+.horizontal-list {
+   font-size:1px;
+}
+ #timeline-divider{
+    left: 5%;
+}
+.timeline-box{
+    left:12% !important;
+    width:80%;
+}
+.timeline-box:nth-child(2n+1)::after{
+    left:-12%;
+}
+.timeline-box:nth-child(2n)::after{
+    left:-12%;
+} 
+#timeline-divider{
+    left: 5%;
+}
+.timeline-box{
+    left:12% !important;
+    width:80%;
+}
+.timeline-box:nth-child(2n+1)::after{
+    left:-12%;
+}
+.timeline-box:nth-child(2n)::after{
+    left:-12%;
+}
+.timeline-logo {
+    position: absolute;
+    width: 30px;
+    overflow: hidden;
+}
+#contact-form {
+    margin-left: 1%;
+}
+#contact-form button[type="submit"] {
+    margin-left: 10%;
+}
+#my-details-container {
+    width: 45%;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+}
