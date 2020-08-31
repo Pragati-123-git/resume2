@@ -516,15 +516,11 @@ button:focus {
     width: 70%;
 }
 
-.fifty-percent {
-    height: inherit;
-    width: 50%;
-}
 .eighty-percent{
     height:inherit;
     width:80%;
 }
-.thirty-percent{
+.fifty-percent{
     height: inherit;
     width: 30%;
 }
